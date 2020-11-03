@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47697d521a6aa6c459f703ef30c7faa2, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "The hull has been breached in cargo bay 3. You dont know how big of
+    a breach it is or what breached it. Your losing oxygen and cargo. \n\nWhat will
+    you do?\n1. Go to cargo bay 3.\n2. Go to Engineering."
+  nextStates:
+  - {fileID: 11400000, guid: e214975e998c2ef4a89f43d77abd47d4, type: 2}
+  - {fileID: 11400000, guid: 6b18c7be0bb23b6488611b6e01376248, type: 2}
