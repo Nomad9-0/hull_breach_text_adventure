@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47697d521a6aa6c459f703ef30c7faa2, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: "Space Freighter\n\nYou are delivering cargo to multiple stations. You
+    carry Food, Medical Supplies, and many other requests. \n\nWhen asked, push 1,
+    2, or 3 for options. Press q to quit at any time.\n\nTake care of your cargo!"
+  nextStates:
+  - {fileID: 11400000, guid: 9b2bafc12890aac4180a15cac79ce0cc, type: 2}

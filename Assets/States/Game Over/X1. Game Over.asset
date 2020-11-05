@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47697d521a6aa6c459f703ef30c7faa2, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'You have lost all your cargo to the vast darkness of space.
+
+
+    Try
+    again?
+
+    1. Yes
+
+    2. No'
+  nextStates:
+  - {fileID: 11400000, guid: 9b2bafc12890aac4180a15cac79ce0cc, type: 2}
+  - {fileID: 11400000, guid: e6601db333f1eac4f89d8f4a51b6e0c3, type: 2}
